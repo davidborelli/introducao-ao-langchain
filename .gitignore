@@ -1,0 +1,49 @@
+# Arquivos de byte-code Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição/Empacotamento
+dist/
+build/
+*.egg-info/
+
+# Ambientes virtuais
+venv/
+env/
+.env
+.venv
+ENV/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de teste e cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*~
+
+# Arquivos de configuração local
+.env.local
+.env.*.local
+
+# Arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Documentação gerada
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
